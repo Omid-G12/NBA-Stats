@@ -1,10 +1,18 @@
 nav {
-  background-color: #333;
+  background-color: #030303;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav .navbar-links {
-  float: right;
+  /* float: left; */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
 }
 
 nav .navbar-links li {
@@ -21,6 +29,6 @@ nav .navbar-links li a {
 }
 
 nav .navbar-links li a:hover {
-  background-color: #111;
+  background-color: #363636;
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css'; // import CSS file for About component styling
+import '../Styles/About.css'; // import CSS file for About component styling
 // import NBAUniversal from './NBAUniversal.png.webp'
 // We are a company dedicated to providing high-quality NBA statistics to fans around the world.
 
